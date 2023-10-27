@@ -25,3 +25,13 @@ def sum_even_no(input_string):
     return sum(even_numbers)
 x = sum_even_no("10,25,30,37,42,50,59,64")
 print(x)
+
+#Method3:
+def sum_even_numbers(numbers):
+    even_sum = sum(x for x in numbers if x % 2 == 0)
+    return even_sum
+
+# Example usage:
+my_numbers = [10, 25, 30, 37, 42, 50, 59, 64]
+result = sum_even_numbers(my_numbers)
+print(result)
