@@ -1,3 +1,4 @@
+#Problem3:
 # Write a function that calculates the area of a triangle when given its base and height.
 def triangle_area(base, height):
     area = (base + height) / 2
