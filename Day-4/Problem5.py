@@ -1,3 +1,4 @@
+#Problem5:
 # Write a function that takes a list of strings and returns a dictionary where the 
 # keys are the strings, and the values are the lengths of the strings.
 
