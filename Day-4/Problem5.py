@@ -7,7 +7,7 @@ def dict_string_len(l):
 
 print(dict_string_len(["suriya", "Vijay", "Abhishek", "Wilson Akash"]))
 
-
+#Method2:
 def dict_string_len(l):
     d = {}
     for i in l:

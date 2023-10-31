@@ -4,7 +4,6 @@
 
 d = {"Suriya": 66, "Vijay":96, "Arnold": 99, "Anand": 99, "Mukes": 70}
 highest_score = max(d.values())
-print(highest_score)
 best_students = [std for std, score in d.items() if score == highest_score]
 
 if len(best_students) == 1:
