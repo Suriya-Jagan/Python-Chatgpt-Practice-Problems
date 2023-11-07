@@ -15,4 +15,3 @@ def common_dict(d1, d2):
 d1 = {"a":20, "b":30, "c":40, "d":50}
 d2 = {"c":40, "d":60, "e":50, "f":70}
 print(common_dict(d1, d2))
-
